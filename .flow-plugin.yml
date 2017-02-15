@@ -1,0 +1,22 @@
+
+name: deploy
+version: 0.0.1
+language: 
+description: deploy template
+public: true
+tags:
+  - deploy
+inputs:
+  - name: FLOW_DEPLOY_CUSTOM_SCRIPT
+    editable: true
+  - name: FLOW_ENABLE_FAILURE
+    editable: true
+    options:
+      - TRUE
+      - FALSE
+outputs:
+script_path: ./run.sh  
+  
+template: |  
+  
+  
