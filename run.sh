@@ -4,7 +4,6 @@
 #
 #   Variables used:
 #     $FLOW_DEPLOY_CUSTOM_SCRIPT
-#     $FLOW_ENABLE_FAILURE
 #
 #   Outputs:
 #
